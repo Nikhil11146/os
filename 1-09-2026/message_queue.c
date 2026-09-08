@@ -8,11 +8,11 @@
 struct message {
     long msg_type;
     int student_id;
-    char name[50];
+    char name[50];`
     float marks;
 };
 
-int main() {
+int main() {`
     key_t key;
     int msgid;
     pid_t pid;

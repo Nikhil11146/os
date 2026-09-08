@@ -5,6 +5,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 
+
 struct message {
     long msg_type;
     int student_id;

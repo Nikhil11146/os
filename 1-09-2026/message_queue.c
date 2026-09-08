@@ -9,7 +9,7 @@
 struct message {
     long msg_type;
     int student_id;
-    char name[50];`
+    char name[50];
     float marks;
 };
 
